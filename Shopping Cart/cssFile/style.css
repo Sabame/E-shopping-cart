@@ -1,0 +1,267 @@
+body {
+	background: lightgoldenrodyellow;
+	color: darkgoldenrod;
+	font-family: 'latoregular';
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+#header {
+	margin: 0 auto;
+	max-width: 960px;
+}
+#header h1 {
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+    font-family: 'Calibri';
+    color: darkgoldenrod;
+	padding-bottom: 0px;
+}
+#header img {
+	width: 150px;
+    height: 150px;
+	margin-left: 42%;
+    padding-top: 5px;
+	padding-bottom: 5px;
+}
+#header div#welcome{
+	text-align: right;
+	padding-top: 5px; 
+}
+
+#header div#adim{
+	float: left;
+	padding-top: 5px; 
+}
+
+#header ul#navigation {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#header ul#navigation li {
+	display: inline;
+	line-height: 30px;
+	position: relative;
+}
+#header ul#navigation li a {
+	color: rgb(187, 157, 81);
+    font-family: 'Calibri';
+	font-size: 18px;
+	padding: 0 46px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul#navigation li a:hover,
+#header ul#navigation li.current ul li a:hover {
+	color: #1b4f5f;
+}
+#header ul#navigation li.current a {
+	color: #70660c;
+}
+#header ul#navigation li ul {
+	display: none;
+	left: 0;
+	list-style: none outside none;
+	margin: 0;
+	padding: 11px 0 0;
+	position: absolute;
+	top: 12px;
+}
+#header ul#navigation li:hover ul {
+	display: block;
+}
+#header ul#navigation li ul li {
+	background: #ffd519;
+	display: block;
+	height: 46px;
+	line-height: 46px;
+}
+#header ul#navigation li ul li a {
+    font-family: 'Calibri';
+    color: rgb(71, 55, 21);
+}
+#header ul#navigation li.current ul li a {
+	color: #b689a0;
+}
+#body {
+	background: #ffffff;
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 15px 40px 46px;
+}
+
+#body img.figure {
+	display: block;
+	float: right;
+	margin: 220px 25px 10px 0;
+	max-width: 40%;
+	width: auto;
+}
+#body div#tagline {
+	float: left;
+	margin: 110px 0 0 25px;
+	max-width: 510px;
+}
+#body div#tagline h1 {
+	color: #ddaa3b;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 80px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 55px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body div#tagline p {
+	color: #ddaa3b;
+    font-family: 'Calibri';
+	font-size: 60px;
+    font-weight:bold;
+	line-height: 100px;
+	padding: 43px 0 0;
+}
+#body div#tagline table {
+	table-layout: fixed;
+    font-size:15px;
+    text-align:left;
+    margin-top:10px;
+    border-collapse: collapse;
+}
+#body div#tagline td{
+    border: 3px solid #e8e8e8;
+    padding: 20px;
+}
+#body div#tagline p.more{
+    color: #000;
+	line-height: 0;
+	font-size: 12px;
+	padding: 0;
+}
+#body form {
+	margin: 20px auto 0;
+	overflow: hidden;
+	width: 580px;
+}
+#tagline table {
+	margin-bottom: 5px;
+}
+#footer {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 30px 0 60px;
+}
+#footer div {
+	float: left;
+	width: 500px;
+}
+#footer div span {
+	color: #948c68;
+	display: block;
+	font-size: 26px;
+	line-height: 24px;
+}
+#footer div p {
+	color: #a3a184;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+#body h2{
+    font-family: 'Calibri';
+    font-size:20px;
+    font-weight: bold ;
+    color:goldenrod;
+    text-align:center;
+    margin: 35px;
+}
+
+#body div a label {
+    font-family: 'Calibri';
+    font-size:14px;
+    color:#000000;
+}
+
+#body input {
+    width: 72px;
+    height: 20px;
+    border:2px solid rgb(211, 189, 118);
+}
+
+#body input.btnAddAction {
+    width: 80px;
+    height: 20px;
+    border:2px solid rgb(211, 189, 118);
+}
+
+#body select{
+    font-size: 10px;
+    width: 95%;
+    height: 26px;
+    border:2px solid rgb(211, 189, 118);
+}
+
+#subbut{
+    font-family: 'Calibri';
+    font-size: 12px;
+    font-weight: bold ;
+    color:black;
+    background-color: #857850;
+    width: 100%;
+    height: 25px;
+    border: 1px solid lightgray;
+    margin-top: 15px;
+    margin-right: 30%;
+}
+
+
+#body div.leftbox{
+    float: left;
+}
+
+#body div.rightbox{
+    float: right;
+}
+
+img.cart-item-image{
+	width: 50px;
+    height: 70px;
+	margin-left: 0;
+    padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div.product-item {
+	float: left;
+	width: 20%; 
+	padding: 5px;
+  }
+  
+input#buy {
+	float:inherit;
+	margin-left: 45%;
+}
+
+input#Report {
+	margin: 10px;
+}
+
+
+img#removePic{
+	width: 40px;
+    height: 40px;
+}
+
+img.icon{
+	width: 20px;
+    height: 20px;
+}
+
+p.contact{
+	color: #000000;
+}
